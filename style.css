@@ -9,8 +9,8 @@
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 8px;
-    box-shadow:  0px 20px 45px rgba(0,0,0,0.3);
-                 
+    box-shadow:  2px 2px 3px rgba(0,0,0,0.3),
+                 0px 5px 6px rgba(0,0,0,0.9);
 }
 h1{
     text-align: center;
@@ -54,22 +54,44 @@ h1{
     background-color: rgb(85, 235, 93);
 
 }
-@media screen and (max-width:618px){
-    .container{      
-    width:100%vw;
-    height:100vh;
-    box-shadow:  0px 20px 45px rgba(0,0,0,0.3);
-    }
-    #head{
-        text-align: center;
-        margin-left: 10px;
-        color:black;
-         font-size: 15px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding: 10px;
-        overflow: hidden;
-        margin-top:30px;
-    
+@media screen and (max-width:619px){
+    .container {
+        position: absolute;
+        width: 525px;
+        height: 400px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 8px;
+        box-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0px 5px 6px rgba(0,0,0,0.9);
     }
 
+}
+@media screen and (max-width:542px){
+    .container {
+        position: absolute;
+        width: 399px;
+        height: 540px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 8px;
+        box-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0px 5px 6px rgba(0,0,0,0.9);
+    }
+
+    
+}
+@media screen and (max-width:406px){
+    .container {
+        position: absolute;
+        width: 338px;
+        height: 540px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 8px;
+        box-shadow: 2px 2px 3px rgba(0,0,0,0.3), 0px 5px 6px rgba(0,0,0,0.9);
+    }
+
+    
 }
